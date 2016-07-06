@@ -109,6 +109,17 @@ brew "the_silver_searcher"
 brew "tmux"
 brew "vim"
 brew "zsh"
+brew "dos2unix"
+brew "ntfs-3g"
+brew "p7zip"
+brew "unrar"
+brew "wget"
+brew "gnu-indent"
+brew "gnu-sed"
+brew "gnu-tar"
+brew "gnu-time"
+brew "gnutls"
+
 
 # Heroku
 brew "heroku-toolbelt"
@@ -128,10 +139,19 @@ brew "libyaml" # should come after openssl
 brew "node"
 brew "rbenv"
 brew "ruby-build"
+brew "go"
 
 # Databases
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
+brew "elasticsearch", restart_service: true
+brew "cassandra", restart_service: true
+brew "sqlite"
+
+# runtime
+brew "mono"
+brew "packer"
+
 EOF
 
 fancy_echo "Configuring Ruby ..."
